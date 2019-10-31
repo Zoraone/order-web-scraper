@@ -1,7 +1,7 @@
 package item
 
 import (
-	uber "../../uber/item"
+	uber "github.com/Zoraone/order-web-scraper/uber/item"
 )
 
 func UberToApp(uberItem uber.Item) Item {

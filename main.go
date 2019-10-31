@@ -5,12 +5,12 @@ import (
 	"flag"
 	"log"
 
-	app_item "./app/item"
-	app_store "./app/store"
-	uber_item "./uber/item"
-	uber_store "./uber/store"
+	app_item "github.com/Zoraone/order-web-scraper/app/item"
+	app_store "github.com/Zoraone/order-web-scraper/app/store"
+	uber_item "github.com/Zoraone/order-web-scraper/uber/item"
+	uber_store "github.com/Zoraone/order-web-scraper/uber/store"
 
-	"./util"
+	"github.com/Zoraone/order-web-scraper/util"
 )
 
 func main() {
