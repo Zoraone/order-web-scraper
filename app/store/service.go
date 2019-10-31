@@ -12,7 +12,7 @@ const localhost = "http://localhost:8080/"
 const prodhost = ""
 
 func AddNewStore(store Store) {
-	path := "api/store/add"
+	path := "api/store/add/"
 
 	requestBody, err := json.Marshal(store)
 	if err != nil {
